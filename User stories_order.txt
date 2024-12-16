@@ -1,0 +1,22 @@
+En tant qu'utilisateur, je veux pouvoir passer une commande, afin d'acheter les produits dans mon panier.
+
+Conditions d'acceptation :
+Si le panier est vide, une erreur doit être levée.
+Les stocks des produits doivent être mis à jour après la commande.
+Le montant total de la commande doit être affiché.
+
+
+
+ En tant qu'utilisateur, je veux pouvoir consulter les détails de ma commande, afin de voir les produits commandés et leur quantité.
+
+Conditions d'acceptation :
+La liste des produits commandés doit être affichée avec leur quantité.
+Le montant total de la commande doit être affiché.
+
+
+
+ En tant qu'utilisateur, je veux pouvoir annuler une commande non expédiée, afin de revenir à l'état initial du panier et restaurer les stocks.
+
+Conditions d'acceptation :
+Les quantités commandées doivent être restaurées dans le stock des produits.
+La commande doit être marquée comme annulée.
