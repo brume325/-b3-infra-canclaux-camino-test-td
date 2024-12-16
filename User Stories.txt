@@ -1,0 +1,29 @@
+Ajouter un produit au panier :
+En tant que client,
+je veux ajouter un produit avec une quantité spécifiée à mon panier,
+afin de préparer mon achat.
+
+critère d'acceptaation :
+Si le stock est insuffisant, une erreur est levée.
+Si le produit est déja dans le panier, la quantité est mise à jour 
+
+Retirer un produit du panier :
+En tant que client,
+je veux retirer un produit de mon panier,
+afin de modifier ma sélection.
+
+Critères d'acceptation :
+
+Si le produit n'est pas dans le panier, une erreur est levée.
+Une fois retiré, le produit n'apparaît plus dans le panier.
+
+
+Afficher le contenu du panier :
+En tant que client,
+je veux voir une liste des produits, quantités et prix,
+afin de vérifier ma commande avant de la finaliser.
+
+Critères d'acceptation :
+
+Si le panier est vide, un message adapté est affiché.
+Sinon, une liste formatée des produits est affichée.
