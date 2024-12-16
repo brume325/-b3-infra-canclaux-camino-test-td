@@ -25,6 +25,6 @@ describe('Product Class', () => {
   });
 
   test('should return correct string representation', () => {
-    expect(product.toString()).toBe('Laptop (120, Stock: 5)');
+    expect(product.toString()).toBe('Laptop ($1200, Stock: 5)');
   });
 });
