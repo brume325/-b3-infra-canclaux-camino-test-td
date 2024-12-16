@@ -3,7 +3,7 @@ En tant que client,
 je veux ajouter un produit avec une quantité spécifiée à mon panier,
 afin de préparer mon achat.
 
-critère d'acceptaation :
+critère d'acceptation :
 Si le stock est insuffisant, une erreur est levée.
 Si le produit est déja dans le panier, la quantité est mise à jour 
 
@@ -27,3 +27,26 @@ Critères d'acceptation :
 
 Si le panier est vide, un message adapté est affiché.
 Sinon, une liste formatée des produits est affichée.
+
+-----------------------------------------------------
+Afficher le prix total du panier avec les remises:
+En tant que client,
+je veux que le prix total du panier prenne en compte les remises sur les produits,
+afin de connaître le montant exact à payer.
+
+Critères d'acceptation :
+
+Si un produit a une remise appliquée, son prix total (après réduction) est utilisé pour le calcul du prix total du panier.
+La remise doit être exprimée en pourcentage.
+
+
+Limitation de la quantité maximale d’un même produit dans un panier:
+En tant que gestionnaire du système,
+je veux limiter la quantité maximale d’un même produit qu’un client peut ajouter à son panier,
+afin d’éviter des abus ou des erreurs de commande.
+
+Critères d'acceptation :
+
+Chaque produit a une limite maximale configurable (par exemple, un client ne peut acheter plus de 10 unités d'un même produit).
+Si un utilisateur tente d’ajouter une quantité dépassant cette limite, une erreur est levée avec un message :
+
